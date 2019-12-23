@@ -1,3 +1,14 @@
+# DATA:
+wget https://drive.google.com/open?id=1m0VSwFo1OVPbivmfhwvwRaw7FaDQd7U4
+
+
+# How to run
+Simply run the code main.py, and the code will load the model and data to test. If you want to check the score 
+in Kaggle, simply upload the output.csv, and you will see the results.
+
+
+# CODE DESCRIPTION
+
 |---main.py Reproduce the test  results.
 
 	|---Adaboost.py Training and validating process for adaboost algorithm
@@ -16,12 +27,9 @@
 	|---sample_maker make a sample dataset for use
 	
 |---experiment_details
+
 	|---Adaboost.pdf The experiment details for adaboost
 	|---DTR.pdf The experiment details for Decision Tree
 	|---prophet The experiment results for Prophet model
 	|---LGBM.png  The experiment results for LGBM model
 
-read_me for main.py
-
-Simply run the code, and the code will load the model and data to test. If you want to check the score 
-in Kaggle, simply upload the output.csv, and you will see the results.
